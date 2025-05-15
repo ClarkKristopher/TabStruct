@@ -49,7 +49,7 @@ We recommend managing dependencies with **conda** + **mamba**.
 
 ```bash
 # 1️⃣ Upgrade conda and activate the base env
-a conda update -n base -c conda-forge conda
+conda update -n base -c conda-forge conda
 conda activate base
 
 # 2️⃣ Install the high‑performance dependency resolver
