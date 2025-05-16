@@ -29,10 +29,10 @@ parameters:
     distribution: categorical
     values:
       - smote
-      - bn
       - tvae
-      - goggle
       - ctgan
+      - tabdiff
+      - tabebm
 
   dataset:
     distribution: categorical
