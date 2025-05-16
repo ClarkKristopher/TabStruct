@@ -71,9 +71,9 @@ pip install -r private_repos/synthcity-private/requirements.txt
 mamba install pytorch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 pytorch-cuda=12.1 -c pytorch -c nvidia
 pip install dgl -f https://data.dgl.ai/wheels/torch-2.2/cu121/repo.html
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
-pip install -e private_repos/synthcity-private[goggle]
-pip install -e private_repos/Camel
-pip install -e private_repos/tabpfn
+pip install -e "private_repos/synthcity-private[goggle]"
+pip install -e "private_repos/Camel"
+pip install -e "private_repos/tabpfn"
 ```
 
 > **Heads‑up:** Search the codebase for absolute paths and replace them with paths on your machine.
