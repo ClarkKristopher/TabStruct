@@ -587,7 +587,7 @@ def cross_update(args):
     # === For some generators, using ordinal encoding during training ===
     if args.synthetic_data_path is None:
         if args.model in ["great", "tabsyn", "tabdiff"]:
-            TerminalIO(
+            TerminalIO.print(
                 f"Using ordinal encoding for categorical features for {args.model}."
                 "Thus, the evaluation results may be incomparable with other generators, who adopts one-hot encoding",
                 TerminalIO.WARNING,

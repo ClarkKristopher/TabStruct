@@ -58,7 +58,7 @@ conda config --set solver libmamba
 conda install -c conda-forge mamba --yes
 
 # 3️⃣ Create the project environment (≈5‑10 min)
-mamba env create -f environment.yml
+conda env create -f environment.yml
 conda activate tabstruct
 
 # 4️⃣ (Optional) re‑enable mamba in the new env
